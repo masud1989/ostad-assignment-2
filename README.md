@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## API List to Test
+1.  API for single student registration              =>      http://localhost:3000/api/user/create
+2.  API for registering many students at once        =>      http://localhost:3000/api/user/createMany
+3.  API to delete a single student.                  =>      http://localhost:3000/api/user/delete?id=4
+4.  API to update student information                =>      http://localhost:3000/api/user/update?id=4
+5. API to show the data of a single student          =>      http://localhost:3000/api/user/view?id=4
+6. API to get all students together                  =>      http://localhost:3000/api/user/all
+
+
+
+
+
+
+
+
 ## Getting Started
 
 First, run the development server:
